@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20;
+    padding: 25px;
+    background-color: #0A0A23;
+    color: #FFFFFF;
+}
+header {
+   background: #1E1E40; 
+   color: #FFF;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 15px 50px;
+}
+header .logo{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #9B59B6;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #00FFFF;
+    font-weight: bold;
+}
+.hero{
+    text-align: center;
+    padding: 60px 15px;
+    background: linear-gradient(to right,#9B59B6, #0A0A23);
+}
+.hero h1{
+    font-size: 2em;
+}
+.hero h1 span{
+    color: #00FFFF;
+}
+.hero p{
+    margin: 15px 0;
+    font-size: 2em;
+}
+.btn{
+    background: #9B59B6;
+    color: #FFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.btn :hover{
+background: #00ffff;
+color: #0A0A23;
+}
+section{
+    padding: 60px 20px;
+    text-align: center;
+}
+.section h1{
+    color: #9B59B6;
+}
+.section p{
+    color: #9B59B6;
+}
+.about, .projects, .contact{
+    background-color: #1E1E40;
+    margin: 15px auto;
+    border-radius: 12px;
+    padding: 40px;
+}
+footer{
+    background: #0A0A23;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: #aaa;
+}
+.socials{
+    margin-top: 15px;
+}
+.socials a{
+    margin: 0 15px;
+    font-size: 30px;
+    color: var(--secondary);
+    transition: 0.3s;
+}
+.socials a:hover{
+    color: var(--primary);
+    transform: scale(1.2);
+}
+.project-card{
+    background: #0A0A23;
+    color: #ccc;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 250px;
+    transition: 0.3s;
+}
+.project-card:hover {
+    background: #9B59B6;
+    color: #FFF;
+}
+.profile-img{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(red, green, blue, alpha);
+}
